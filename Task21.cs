@@ -13,6 +13,6 @@ B[i] = Convert.ToDouble(Console.ReadLine());
 i += 1;
 }
 res = Math.Sqrt(Math.Pow(B[0] - A[0], 2) + Math.Pow(B[1] - A[1], 2) + Math.Pow(B[2] - A[2], 2));
-Console.WriteLine(res);
+Console.WriteLine($"Расстояние между двумя точками = {res}");
 
 
